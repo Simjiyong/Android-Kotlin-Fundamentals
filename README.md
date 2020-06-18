@@ -11,3 +11,11 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
 - [2.3 : ColorMyViews](./ColorMyViews)
   - 2.3 Constraint layout using the Layout Editor
 
+
+
+## Lesson 3: Navigation
+
+- [3.1 ~ 3.3 : AndroidTrivia](./AndroidTrivia)
+  - 3.1 Create a fragment
+  - 3.2 Define navigation paths
+  - 3.3 Start an external activity
