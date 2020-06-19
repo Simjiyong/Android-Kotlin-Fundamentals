@@ -19,3 +19,14 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
   - 3.1 Create a fragment
   - 3.2 Define navigation paths
   - 3.3 Start an external activity
+
+
+
+## Lesson 4: Activity and fragment lifecycles
+
+- [4.1 ~ 4.2 : DessertClicker](./DessertClicker)
+  - 4.1 Lifecycles and logging
+  - 4.2 Complex lifecycle situations
+
+
+
