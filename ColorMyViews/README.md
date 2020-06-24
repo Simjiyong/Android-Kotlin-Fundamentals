@@ -4,4 +4,4 @@
 
 - 2.3 Constraint layout using the Layout Editor
 
-__Google Codelabs__에 있는 Android Kotlin Fundamentals course를 보면서 작성한 코드
+**Google Codelabs**에 있는 Android Kotlin Fundamentals course를 보면서 작성한 코드
