@@ -54,20 +54,24 @@ class GameFragment : Fragment() {
         Log.i("GameFragment", "Called ViewModelProvider")
         viewModel = ViewModelProvider(this)[GameViewModel::class.java]
 
+        // Set the viewmodel for databinding
+        binding.gameViewModel = viewModel
+        binding.lifecycleOwner = viewLifecycleOwner
+
         /** Setting up LiveData observation relationship **/
-        viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
-            binding.scoreText.text = newScore.toString()
-        })
-        viewModel.word.observe(viewLifecycleOwner, Observer { newWord ->
-            binding.wordText.text = newWord
-        })
+//        viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
+//            binding.scoreText.text = newScore.toString()
+//        })
+//        viewModel.word.observe(viewLifecycleOwner, Observer { newWord ->
+//            binding.wordText.text = newWord
+//        })
         viewModel.eventGameFinish.observe(viewLifecycleOwner, Observer<Boolean> { hasFinished ->
-            if(hasFinished) gameFinished()
+            if (hasFinished) gameFinished()
         })
 
-        binding.correctButton.setOnClickListener { onCorrect() }
-        binding.skipButton.setOnClickListener { onSkip() }
-        binding.endGameButton.setOnClickListener { onEndGame() }
+//        binding.correctButton.setOnClickListener { onCorrect() }
+//        binding.skipButton.setOnClickListener { onSkip() }
+//        binding.endGameButton.setOnClickListener { onEndGame() }
 //        updateScoreText()
 //        updateWordText()
         return binding.root
@@ -77,7 +81,7 @@ class GameFragment : Fragment() {
     private fun gameFinished() {
         Toast.makeText(activity, "Game has just finished", Toast.LENGTH_SHORT).show()
         val action = GameFragmentDirections.actionGameToScore()
-        action.score = viewModel.score.value?:0
+        action.score = viewModel.score.value ?: 0
         findNavController().navigate(action)
 //        NavHostFragment.findNavController(this).navigate(action)
         viewModel.onGameFinishComplete()
@@ -85,7 +89,7 @@ class GameFragment : Fragment() {
 
 
     /** Methods for buttons presses **/
-
+/*
     private fun onSkip() {
         viewModel.onSkip()
 //        updateWordText()
@@ -101,6 +105,7 @@ class GameFragment : Fragment() {
     private fun onEndGame() {
         gameFinished()
     }
+ */
 
     /** Methods for updating the UI **/
 //    private fun updateWordText() {

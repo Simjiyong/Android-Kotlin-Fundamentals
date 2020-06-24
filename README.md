@@ -32,6 +32,8 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
 
 ## Lesson 5: Architecture components
 
-- [5.1 ~ 5.2 : GuessTheWord](./GuessTheWord)
+- [5.1 ~ 5.4 : GuessTheWord](./GuessTheWord)
   - 5.1 ViewModel and ViewModelProvider
   - 5.2 LiveData and LiveData observers
+  - 5.3 DataBinding with ViewModel and LiveData
+  - 5.4 LiveData transformations
