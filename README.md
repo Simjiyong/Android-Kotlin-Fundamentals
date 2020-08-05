@@ -37,3 +37,16 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
   - 5.2 LiveData and LiveData observers
   - 5.3 DataBinding with ViewModel and LiveData
   - 5.4 LiveData transformations
+
+
+
+## Lesson 6: Room database and coroutines
+
+- [6.1 ~ 6.3 : TrackMySleepQuality](./TrackMySleepQuality)
+
+  - 6.1 Create a Room database
+  - 6.2 Coroutines ans Room
+  - 6.3 Record quality and button states
+
+  
+
