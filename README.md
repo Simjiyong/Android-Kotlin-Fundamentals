@@ -50,3 +50,7 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
 
   
 
+## Lesson 7: RecyclerView
+
+- [7.1 : RecyclerViewFundametals](./RecyclerViewFundamentals)
+  - 7.1 RecyclerView fundamentals
