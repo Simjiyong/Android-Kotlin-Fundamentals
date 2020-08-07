@@ -52,5 +52,8 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
 
 ## Lesson 7: RecyclerView
 
-- [7.1 : RecyclerViewFundametals](./RecyclerViewFundamentals)
+- [7.1 ~ 7.4 : RecyclerViewFundametals](./RecyclerViewFundamentals)
   - 7.1 RecyclerView fundamentals
+  - 7.2 DiffUtil and data binding with RecyclerView
+  - 7.3 GridLayout with RecyclerView
+  - 7.4 Interacting with RecyclerView items
