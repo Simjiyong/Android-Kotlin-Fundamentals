@@ -59,3 +59,10 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
   - 7.4 Interacting with RecyclerView items
   - 7.5 Headers in RecyclerView
 
+
+
+## Lesson 8: Connecting to the internet
+
+- [8.1 : MarsRealEstate](./MarsRealEstate)
+  - 8.1 Getting data from the internet
+
