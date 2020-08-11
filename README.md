@@ -67,3 +67,11 @@ Andorid developes 에 있는 Android Kotlin Training 과정을 보면서 공부�
   - 8.1 Getting data from the internet
   - 8.2 Loading and displaying images from the internet
   - 8.3 Filtering and detail views with internet data
+
+
+
+## Lesson 9: Repository
+
+- [9.1 ~ 9.2 : DevBytes](./DevBytes)
+  - 9.1 Repository
+  - 9.2 WorkManager
